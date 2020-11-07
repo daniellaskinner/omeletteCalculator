@@ -1,7 +1,7 @@
 import math
 
 numberOfEggsInABox = 6
-numberOfEggBoxes = 2
+numberOfEggBoxes = int(input('How many egg boxes you got?'))
 eggsOmeletteNeeds = 4
 
 totalOmelettesMakeable = math.floor((numberOfEggsInABox * numberOfEggBoxes) / eggsOmeletteNeeds)
